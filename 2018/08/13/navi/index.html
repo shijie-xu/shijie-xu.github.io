@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="μὴ εἶναι βασιλικὴν ἀτραπὸν ἐπί γεωμετρίαν"><title>Navigator | Shijie's Blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/3.4.0/jquery.min.js"></script><link rel="icon" mask sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Navigator</h1><a id="logo" href="/.">Shijie's Blog</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/math/"><i class="fa fa-comment"> Les mathématiques</i></a><a href="/tech/"><i class="fa fa-star"> Techniques</i></a><a href="/poem/"><i class="fa fa-heart"> 風·雅·頌</i></a><a href="/about/"><i class="fa fa-user"> About</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Navigator</h1><div class="post-meta">Aug 13, 2018<span> | </span><span class="category"><a href="/categories/math/">math</a></span></div><div class="post-content"><h3 id="Courses-Dependency"><a href="#Courses-Dependency" class="headerlink" title="Courses Dependency"></a>Courses Dependency</h3><a id="more"></a>
 <!--
 @startuml
-"Mathematical Analysis" --o "Differential Geometry"
+"Mathematical Analysis" --o "Differential Geometry" 
 "Mathematical Analysis" --o "Introduction to Tensor"
 "Mathematical Analysis" --o "Topology"
 "Mathematical Analysis" --o "Probability"
@@ -10,6 +10,9 @@
 "Mathematical Analysis" --o "Real Analysis"
 "Mathematical Analysis" --o "Functional Analysis"
 
+"Introduction to Algebra" --o "Algebra"
+"Introduction to Algebra" --o "Combinatorics"
+
 "Linear Algebra" --o "Graph Theory"
 "Linear Algebra" --o "Combinatorics"
 "Linear Algebra" --o "Introduction to Tensor"
@@ -17,8 +20,7 @@
 "Linear Algebra" --o "ODE"
 "Linear Algebra" --o "Complex Analysis"
 
-"Introduction to Algebra" --o "Algebra"
-"Introduction to Algebra" --o "Combinatorics"
+
 
 
 "Analytic Geometry" --o "Differential Geometry"
@@ -55,9 +57,9 @@
 "Commutative Algebra" --o "Algebraic Geometry"
 
 "Algebra" --o "Homological Algebra"
-"Differential Manifold" --o "Riemann Geometry"
+"Differential Manifold" --o "Riemannian Geometry"
 
-"Riemann Geometry" --o "Complex Geometry"
+"Riemannian Geometry" --o "Complex Geometry"
 "Differential Geometry" --o "Complex Geometry"
 "Complex Analysis" --o "Complex Geometry"
 "PDE" --o "Complex Geometry"
@@ -66,6 +68,16 @@
 "Linear Algebra" --o "Algebraic Number Theory"
 "Complex Analysis" --o "Algebraic Number Theory"
 "Mathematical Analysis" --o "Algebraic Number Theory"
+
+"Functional Analysis" --o "Operator Algebra"
+"Algebra" --o "Operator Algebra"
+
+"Commutative Algebra" --o "Noncommutative Geometry"
+"Algebraic Topology" --o "Noncommutative Geometry"
+"Riemannian Geometry" --o "Noncommutative Geometry"
+
+"Complex Analysis" --o "Analytic Number theory"
+"Algebra" --o "Analytic Number theory"
 @enduml
 
 [link](http://www.plantuml.com/plantuml/svg/ZPBTRi8m38NlynHHxda7qDZOfA6XYHTmMmEM4XkvwRI-_LQaKgrOpQxway_EyV5PjnaqTocwi8TymGIPQeX-mn3xbjhWLolnOKkd4ofo9eX-Xv8mQn-MQzuugpHTdKdOP_57v5QqK7IKgqGvbteVL2geA58kaH_RvmBn9EaQyVl-ku1_8iJ_iYyTtyR_K-4UdDd4CrOAavwA6B8erMqeqUENS-6T645dvpk5wyKVBoZQ1uCnRhGXUvq6RIneXaoRCOxibRXmU_zrUOhVOZJTtPbviDnmSo7N4t4OLBe7HQFxpHTmZOsVfMB6bm8nLHTRsx3LroPVGPCmrGLkdDiso31l3qmdYKrmXfZYJ4Q9eTUc3TN3Or7Z6hdfKlm1)
